@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(245, 240, 199);
+}
+table, tr, td {
+    border: 2px solid black;
+    background-color: rgb(207, 241, 235);
+    border-collapse: collapse;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+textarea {
+    min-width: 600px;
+    min-height: 200px;
+}
+form button {
+    margin-top: 30px;
+}
