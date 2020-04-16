@@ -1,9 +1,260 @@
 [
   {
-    "number": "",
-    "title": "",
-    "description": "",
-    "id": "43245e542312d490091d65de"
+    "files": [],
+    "results": [
+      {
+        "_id": "5e7be67739689f2181ef15fd",
+        "id": "5e7be67739689f2181ef15fd"
+      },
+      {
+        "_id": "5e7c68d1ea6a2207defa0b18",
+        "id": "5e7c68d1ea6a2207defa0b18"
+      },
+      {
+        "_id": "5e7c8f846ef255434dfe9588",
+        "id": "5e7c8f846ef255434dfe9588"
+      },
+      {
+        "_id": "5e7ca4b34915f662e566684d",
+        "id": "5e7ca4b34915f662e566684d"
+      },
+      {
+        "_id": "5e7cd5beafdc122ee520cae3",
+        "id": "5e7cd5beafdc122ee520cae3"
+      },
+      {
+        "_id": "5e7dfdd9afdc122ee520e95c",
+        "id": "5e7dfdd9afdc122ee520e95c"
+      },
+      {
+        "_id": "5e7f22cca270ed2e604dcee2",
+        "id": "5e7f22cca270ed2e604dcee2"
+      }
+    ],
+    "coach_status": "not_all_assessed",
+    "_id": "5e7bba148b51f45fb222ee7d",
+    "lesson": {
+      "_id": "5e6f388610b9db148a742360",
+      "id": "5e6f388610b9db148a742360"
+    },
+    "author": {
+      "avatars": [
+        {
+          "_id": "5e25937aec54c91282ddb695",
+          "mimetype": "image/jpeg",
+          "destination": "uploads/images",
+          "filename": "image-1579520889023.jpeg",
+          "author": "5da87a6a9dbbf4408216ff1a",
+          "sizes": [
+            {
+              "_id": "5e25937aec54c91282ddb699",
+              "size": "original",
+              "path": "uploads/images/original_image-1579520889023.jpeg",
+              "width": 1034,
+              "height": 1158
+            },
+            {
+              "_id": "5e25937aec54c91282ddb698",
+              "size": "1000x1000",
+              "path": "uploads/images/1000x1000_image-1579520889023.jpeg",
+              "width": 1000,
+              "height": 1000
+            },
+            {
+              "_id": "5e25937aec54c91282ddb697",
+              "size": "500x500",
+              "path": "uploads/images/500x500_image-1579520889023.jpeg",
+              "width": 500,
+              "height": 500
+            },
+            {
+              "_id": "5e25937aec54c91282ddb696",
+              "size": "100x100",
+              "path": "uploads/images/100x100_image-1579520889023.jpeg",
+              "width": 100,
+              "height": 100
+            }
+          ],
+          "createdAt": "2020-01-20T11:48:10.154Z",
+          "updatedAt": "2020-01-20T11:48:10.154Z",
+          "image_id": 11887,
+          "__v": 0
+        },
+        {
+          "_id": "5da83f2714495175c9a49a2b",
+          "mimetype": "image/jpeg",
+          "destination": "uploads/images",
+          "filename": "image-1571307299363.jpeg",
+          "sizes": [
+            {
+              "_id": "5da83f2714495175c9a49a2f",
+              "size": "original",
+              "path": "uploads/images/original_image-1571307299363.jpeg",
+              "width": 2304,
+              "height": 3456
+            },
+            {
+              "_id": "5da83f2714495175c9a49a2e",
+              "size": "1000x1000",
+              "path": "uploads/images/1000x1000_image-1571307299363.jpeg",
+              "width": 1000,
+              "height": 1000
+            },
+            {
+              "_id": "5da83f2714495175c9a49a2d",
+              "size": "500x500",
+              "path": "uploads/images/500x500_image-1571307299363.jpeg",
+              "width": 500,
+              "height": 500
+            },
+            {
+              "_id": "5da83f2714495175c9a49a2c",
+              "size": "100x100",
+              "path": "uploads/images/100x100_image-1571307299363.jpeg",
+              "width": 100,
+              "height": 100
+            }
+          ],
+          "createdAt": "2019-10-17T10:15:03.329Z",
+          "updatedAt": "2019-10-17T10:15:03.329Z",
+          "image_id": 8917,
+          "__v": 0
+        },
+        {
+          "_id": "5e259231e06341427beb92cc",
+          "mimetype": "image/jpeg",
+          "destination": "uploads/images",
+          "filename": "image-1579520560686.jpeg",
+          "author": "5da87a6a9dbbf4408216ff1a",
+          "sizes": [
+            {
+              "_id": "5e259231e06341427beb92cf",
+              "size": "original",
+              "path": "uploads/images/original_image-1579520560686.jpeg",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "_id": "5e259231e06341427beb92ce",
+              "size": "500x500",
+              "path": "uploads/images/500x500_image-1579520560686.jpeg",
+              "width": 500,
+              "height": 500
+            },
+            {
+              "_id": "5e259231e06341427beb92cd",
+              "size": "100x100",
+              "path": "uploads/images/100x100_image-1579520560686.jpeg",
+              "width": 100,
+              "height": 100
+            }
+          ],
+          "createdAt": "2020-01-20T11:42:41.428Z",
+          "updatedAt": "2020-01-20T11:42:41.428Z",
+          "image_id": 11885,
+          "__v": 0
+        }
+      ],
+      "_id": "5da87a6a9dbbf4408216ff1a",
+      "first_name": "Сергей",
+      "last_name": "Замошников",
+      "id": "5da87a6a9dbbf4408216ff1a"
+    },
+    "title": "Запускаем свой сервер на heroku",
+    "description": "<p>Поначалу это может оказаться пугающим, но это рано или поздно каждому придется это делать.</p><p><br></p><p>Самое сложное и отталкивающее, это инструкция на английском языке.</p><p>Это нормально, многих начинающих разработчиков вгоняет в отчаянье необходимость читать инструкции и документацию на английском.</p><p>Как временное решение вы можете использовать google translate chrome plugin, который переводит страницу целиком</p><p><a href=\"https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb\" target=\"_blank\">https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb</a></p><p><br></p><p>Но, подчеркиваю - это временное решение. Чтение текста в оригинале делает лучше не только ваш английский, но и ваш код, ведь код написан на английском.</p><p><br></p><p>1. Необходимо зарегистрировать аккаунт на heroku.com</p><p>Этот сервис я выбрал за довольно быстрый старт.. Несколько косольных комманд и вы справитесь. No credit card required. Также, heroku довольно популярный.</p><p><br></p><p>2. cразу после создания аккаунта и подтверждения email вы увидите приглашение - <strong>Create a new app </strong>- жмите.</p><p><br></p><p>3. Начинайте следовать инструкции, выполните пункты \"<strong>Install the Heroku CLI</strong>\" и \"<strong>Create a new Git repository</strong>\"</p><p><br></p><p>4. Теперь у нас есть git репозиторий, но нет проекта (npm пакета). Создайте его выполнив в папке проекта команду \"<strong>npm init -y</strong>\". Она создаст файл package.json.</p><p><br></p><p>5. создайте файл <strong>index.js</strong>, который наполните содержимым из примера</p><p><a href=\"https://nodejs.org/en/knowledge/HTTP/servers/how-to-create-a-HTTP-server/\" target=\"_blank\">https://nodejs.org/en/knowledge/HTTP/servers/how-to-create-a-HTTP-server/</a></p><p>Придайте немного индивидуальности, поменяйте содержимое ответа</p><p><br></p><p>6. для того, чтобы heroku мог настроить порт, который слушает наш сервер - добавьте в index.js строку</p><p><br></p><p><br></p><pre class=\"ql-syntax\" spellcheck=\"false\">const PORT = process.env.PORT || 5000;\n</pre><p>Эта строка сохранит порт из окружения в переменную PORT.</p><p>Используйте переменную <strong>PORT </strong>как параметр для метода <strong>.listen()</strong></p><p>Теперь наш сервер слушает порт, который можно задать при запуске или 5000, если ничего не задали.</p><p><br></p><p>7. Немного вспомним формат JSON. Для запуска нашего сервера необходимо добавить скрипт запуска - \"start\". Добавьте строчку</p><p><br></p><p><br></p><pre class=\"ql-syntax\" spellcheck=\"false\">\"start\": \"node index.js\"\n</pre><p>в package.json в секцию \"scripts\", рядом со скриптом \"test\" (следите за запятыми между скриптами)</p><p><br></p><p>8. Проверьте, что наш сервер работает выполнив \"npm start\" и зайдя на <strong>localhost:5000 </strong>из браузера</p><p>Ура! - локально работает.</p><p><br></p><p>9. Заливаем изменения на heroku: Делаем <strong>коммит </strong>удобным вам способом<strong> </strong>и заливаем (<strong>push</strong>). Обратите внимание на push с параметрами из пункта \"<strong>Deploy your changes</strong>\" инструкции на heroku.</p><p><br></p><p><br></p><pre class=\"ql-syntax\" spellcheck=\"false\">git push heroku master\n</pre><p><br></p><p>В ответ на задание прикладываем ссылку на ваш сервер. Ее можно найти, например, в последних срочках результата комманды push</p>",
+    "students_statuses": [
+      {
+        "_id": "5e7f22cca270ed2e604dcee3",
+        "user": {
+          "_id": "5ded09afaa44ed26d21472c9",
+          "id": "5ded09afaa44ed26d21472c9"
+        },
+        "status": "complete"
+      },
+      {
+        "_id": "5e7f22cca270ed2e604dcee4",
+        "user": {
+          "_id": "5da2fb44881b66686d838a6a",
+          "id": "5da2fb44881b66686d838a6a"
+        },
+        "status": "complete"
+      },
+      {
+        "_id": "5e7f22cca270ed2e604dcee5",
+        "user": {
+          "_id": "5c4727715008814a6e530cc3",
+          "id": "5c4727715008814a6e530cc3"
+        },
+        "status": "complete"
+      },
+      {
+        "_id": "5e7f22cca270ed2e604dcee6",
+        "user": {
+          "_id": "5dd51c6a21af307859dd8386",
+          "id": "5dd51c6a21af307859dd8386"
+        },
+        "status": "complete"
+      },
+      {
+        "_id": "5e7f22cca270ed2e604dcee7",
+        "user": {
+          "_id": "5df0bd0bc2808b3ca2924708",
+          "id": "5df0bd0bc2808b3ca2924708"
+        },
+        "status": "complete"
+      },
+      {
+        "_id": "5e7f22cca270ed2e604dcee8",
+        "user": {
+          "_id": "5d98b2ba0b14483a6a535fb7",
+          "id": "5d98b2ba0b14483a6a535fb7"
+        },
+        "status": "complete"
+      },
+      {
+        "_id": "5e7f22cca270ed2e604dcee9",
+        "user": {
+          "_id": "5c586bed6c18850fd780b9cb",
+          "id": "5c586bed6c18850fd780b9cb"
+        },
+        "status": "not_assessed"
+      },
+      {
+        "_id": "5e7f22cca270ed2e604dceea",
+        "user": {
+          "_id": "5dc9978f89a23c574661d0d7",
+          "id": "5dc9978f89a23c574661d0d7"
+        },
+        "status": "not_complete"
+      },
+      {
+        "_id": "5e7f22cca270ed2e604dceeb",
+        "user": {
+          "_id": "5de26531b0598f5e286f3039",
+          "id": "5de26531b0598f5e286f3039"
+        },
+        "status": "not_complete"
+      },
+      {
+        "_id": "5e7f22cca270ed2e604dceec",
+        "user": {
+          "_id": "5dea9134aa44ed26d2143cff",
+          "id": "5dea9134aa44ed26d2143cff"
+        },
+        "status": "not_complete"
+      },
+      {
+        "_id": "5e7f22cca270ed2e604dceed",
+        "user": {
+          "_id": "5e3303a674bae12ad41d3322",
+          "id": "5e3303a674bae12ad41d3322"
+        },
+        "status": "not_complete"
+      }
+    ],
+    "number": 43,
+    "createdAt": "2020-03-25T20:07:48.826Z",
+    "id": "5e7bba148b51f45fb222ee7d"
   },
   {
     "files": [],

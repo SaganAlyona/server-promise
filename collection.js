@@ -21,14 +21,6 @@ export class Collection {
     return fs.writeFile(this.filePath, JSON.stringify(filtered, null, 2));
   }
 
-  async insertOne(data){
-    const newLessonId = Math.random().toString(16).slice(-12) + Math.random().toString(16).slice(-12);
-    data.id = newLessonId;
-    const docs =  await this._readData();
-    docs.unshift(data);
-    return this._writeData(docs);
-  }
-
   async _readData(){
     const fileData = await fs.readFile(this.filePath, 'utf-8');
     return JSON.parse(fileData);
