@@ -11,6 +11,7 @@ const collection = new Collection('homeworks');
 const templates = {
   list: readFileSync('./templates/list.html', 'utf8'),
   homework: readFileSync('./templates/homework.html', 'utf8'),
+  newLesson: readFileSync('./templates/new-homework.html', 'utf8'),
   css: readFileSync('./public/style.css', 'utf8'),
 };
 
@@ -66,10 +67,9 @@ const requestHandler = async (req, res) => {
     }
     
     if (req.url.startsWith('/homeworks/new')) {
-      const newLesson = 'undefined';
       switch(req.method){
       case 'GET':{
-        const body = Mustache.render(templates.homework, newLesson);
+        const body = Mustache.render(templates.newLesson);
         send(200, body);
       }
         break;
