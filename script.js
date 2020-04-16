@@ -64,6 +64,25 @@ const requestHandler = async (req, res) => {
       send(200, Mustache.render(templates.list, { title: 'Homeworks', rows: data}));
       return;
     }
+    
+    if (req.url.startsWith('/homeworks/new')) {
+      const newLesson = 'undefined';
+      switch(req.method){
+      case 'GET':{
+        const body = Mustache.render(templates.homework, newLesson);
+        send(200, body);
+      }
+        break;
+      case 'POST':{
+        const updateDate = await readBody(req);
+        await collection.insertOne(updateDate);
+        res.writeHead(302, { Location: req.url });
+        res.end();
+        break;
+      }
+      }
+      return;
+    }
 
     if (req.url.startsWith('/homeworks/')) {
       const id = req.url.substring('/homeworks/'.length);
